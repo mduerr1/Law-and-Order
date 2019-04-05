@@ -1,0 +1,147 @@
+head, body {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14pt;
+  margin: auto;
+  padding: 25px;
+  width: 70%;
+  background-color: white;
+  color: black;
+}
+
+header {
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+header h1{
+  font-size: 40pt;
+  padding-bottom: 20px;
+}
+
+footer {
+  font-size: 10pt;
+  padding-top: 25px;
+}
+
+h1 {
+  margin: auto;
+  font-size: 20pt;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  margin: auto;
+  border-color: inherit;
+}
+
+th {
+  background-color: #F0F0F0;
+  font-size: 15pt;
+}
+
+tr:hover, td:hover {
+  background-color: #bfe6ff;
+}
+
+
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blue;
+}
+
+#sum, .none:hover {
+  background-color: #F0F0F0;
+}
+
+ul {
+  padding: 0px;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  list-style: none;
+  list-style-position: outside;
+}
+
+ol {
+  text-align: center;
+  margin: auto;
+  list-style-position: inside;
+}
+
+ol li {
+  padding-top: 20px;
+}
+
+cite {
+  font-size: 12pt;
+}
+
+#wiki {
+  border-radius: 30px;
+  padding: 10px 15px;
+  border: 2px solid black;
+  color: white;
+  background-color: black;
+  transition: .5s;
+}
+
+#wiki:hover {
+  border-radius: 30px;
+  padding: 10px 15px;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  transition: .5s;
+}
+
+nav a {
+  margin: 0px 20px;
+  border-radius: 30px;
+  padding: 5px 15px;
+  border: 2px solid red;
+  color: black;
+  background-color: red;
+  transition: .5s;
+}
+
+nav a:hover {
+  margin: 0px 20px;
+  border-radius: 30px;
+  padding: 5px 15px;
+  border: 2px solid red;
+  color: black;
+  background-color: white;
+  transition: .5s;
+}
+
+.columns {
+  -webkit-column-count: 2;
+  padding-top: 10px;
+}
+
+#table_header {
+  padding-top: 20px;
+}
+
+li h4{
+  text-align: center;
+}
+
+.right {
+	float: right;
+	padding-left: 10px;
+  display: block;
+}
+
+.left {
+	float: left;
+	padding-right: 10px;
+  display: block;
+}
