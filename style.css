@@ -145,3 +145,7 @@ li h4{
 	padding-right: 10px;
   display: block;
 }
+
+ol p {
+  text-align: left;
+}
