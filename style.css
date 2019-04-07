@@ -132,6 +132,11 @@ nav a:hover {
 
 li h4{
   text-align: center;
+  padding-top: 70px;
+}
+
+#McCoy {
+  padding-top: 0px;
 }
 
 .right {
@@ -148,4 +153,5 @@ li h4{
 
 ol p {
   text-align: left;
+  padding-bottom: 20px;
 }
