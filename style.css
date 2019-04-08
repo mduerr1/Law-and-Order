@@ -84,6 +84,7 @@ cite {
 }
 
 #wiki {
+  margin-top: 30px;
   border-radius: 30px;
   padding: 10px 15px;
   border: 2px solid black;
@@ -143,11 +144,7 @@ nav a:hover {
 
 li h4{
   text-align: center;
-  padding-top: 70px;
-}
-
-#McCoy {
-  padding-top: 0px;
+  display: inline;
 }
 
 .right {
@@ -164,5 +161,5 @@ li h4{
 
 ol p {
   text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 150px;
 }
